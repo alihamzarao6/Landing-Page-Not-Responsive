@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyFitness - The Best Fitness Gym in the Town</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/utils.css">
+</head>
+
+<body class="overflow-x-hidden">
+    <div class="container mx-auto">
+        <header>
+            <nav class="flex justify-between">
+                <div class="flex align-center font-bold text-orange logo">MyFitness</div>
+                <ul class="navbar flex align-center">
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                    <li>Services</li>
+                    <li><button class="btn">Join Now</button></li>
+                </ul>
+            </nav>
+            <hr>
+        </header>
+
+        <main class="min-h-screen">
+            <section class="section1">
+                <div class="flex">
+                    <div class="topleft flex flex-col justify-center px-2">
+                        <div class="text-center">
+                            <img src="images/dumbell.png" class="dumbellimg" alt="">
+                        </div>
+                        <h1 class="my-1 text-center">The best fitness Gym in the town is here</h1>
+                        <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed delectus
+                            neque excepturi perferendis officiis perspiciatis officia quaerat enim eaque, quos culpa
+                            modi, aliquid natus deserunt ducimus odio quam iste suscipit! Lorem ipsum dolor sit amet,
+                            consectetur adipisicing elit. Deleniti, impedit.</p>
+                        <!-- Display Timer -->
+                        <p class="deal text-center">The deal ends in <span id="demo"></span></p>
+                        <div class="buttons">
+                            <button class="btn">Join Now</button>
+                            <button class="btn">Contact Us</button>
+                        </div>
+
+                    </div>
+                    <div class="topright flex justify-center">
+                        <img src="images/gym.png" alt="" class="gymimg">
+                    </div>
+                </div>
+            </section>
+            <hr>
+            <section class="section2">
+                <h1 class="text-center my-2">Pricing</h1>
+                <p class="my-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti dolorum ullam fugit
+                    consequuntur temporibus eligendi eveniet molestiae, est voluptatum minus. At inventore architecto
+                    quidem, doloribus labore, eos sunt fuga, recusandae temporibus sint eligendi mollitia ipsa amet.</p>
+                <div class="boxes flex justify-center">
+                    <div class="box">
+                        <h2>Free</h2>
+                        <ul>
+                            <li class="highlighted"><span class="priceBolder">$0</span>/mo</li>
+                            <li>0 users included</li>
+                            <li>2 GB of storage</li>
+                            <li>Email support</li>
+                            <li>Help center access</li>
+                            <li><button class="btn">Sign Up Now</button></li>
+                        </ul>
+                    </div>
+                    <div class="box">
+                        <h2>Pro</h2>
+                        <ul>
+                            <li class="highlighted"><span class="priceBolder">$15</span>/mo</li>
+                            <li>20 users included</li>
+                            <li>10 GB of storage</li>
+                            <li>Priority Email support</li>
+                            <li>Help center access</li>
+                            <li><button class="btn">Sign Up Now</button></li>
+                        </ul>
+                    </div>
+                    <div class="box">
+                        <h2>Enterprise</h2>
+                        <ul>
+                            <li class="highlighted"><span class="priceBolder">$29</span>/mo</li>
+                            <li>30 users included</li>
+                            <li>15 GB of storage</li>
+                            <li>Phone and Email support</li>
+                            <li>Help center access</li>
+                            <li><button class="btn">Sign Up Now</button></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <hr>
+            <section class="section3">
+                <h1 class="text-center my-2">Compare plans</h1>
+
+                <div class="container plantable">
+                    <table class="table text-center">
+                        <thead>
+                            <tr>
+                                <th></th>
+                                <th>Free</th>
+                                <th>Pro</th>
+                                <th>Enterprise</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row" class="text-start">Public</th>
+                                <td>Yes</td>
+                                <td>Yes</td>
+                                <td>Yes</td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="text-start">Private</th>
+                                <td>-</td>
+                                <td>Yes</td>
+                                <td>Yes</td>
+                            </tr>
+                        </tbody>
+
+                        <tbody>
+                            <tr>
+                                <th scope="row" class="text-start">Permissions</th>
+                                <td>Yes</td>
+                                <td>Yes</td>
+                                <td>Yes</td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="text-start">Sharing</th>
+                                <td>-</td>
+                                <td>Yes</td>
+                                <td>Yes</td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="text-start">Unlimited members</th>
+                                <td>-</td>
+                                <td>Yes</td>
+                                <td>Yes</td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="text-start">Extra security</th>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>Yes</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+            <hr>
+        </main>
+
+        <footer>
+            Copyright &copy; MyFitness.com | All rights are reserved
+        </footer>
+    </div>
+
+    <script src="js/timer.js"></script>
+</body>
+
+</html>
